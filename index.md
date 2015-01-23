@@ -1,46 +1,43 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Apresentação
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+{% img /assets/avatar.jpg 400x %}
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+[Currículo Lattes](http://lattes.cnpq.br/1676762016268778)
 
-## Update Author Attributes
+Professor em Teoria da Computação:
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+- [IFCE- Campus Avançado de Aracati](http://aracati.ifce.edu.br/):
+  - Rua Teófilo Pinto, 200 - Farias Brito, Aracati - CE, 62.800-000, Brasil
+  - +55 88 3421-3559
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+Doutorando em Ciência da Computação:
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+- [Universidade Federal do Ceará](http://www.mdcc.ufc.br)
+  - Campus do Pici - Bloco 910, Fortaleza - CE, 60.455-760, Brasil
+  - +55 85 3366-9847
 
-    $ rm -rf _posts/core-samples
+## Áreas de Interesse
 
-Here's a sample "posts list".
+- [Algoritmos](http://en.wikipedia.org/wiki/Algorithm)
+- [Teoria dos Grafos](http://en.wikipedia.org/wiki/Graph_theory)
+- [Otimização Combinatória](http://en.wikipedia.org/wiki/Combinatorial_optimization)
+
+## Formação Acadêmica
+
+- [Doutor em Ciência da Computação pela UFC](http://www.ufc.br/) *(em progresso)*
+- [Mestre em Ciência da Computação pelo IME-USP (2012)](http://www.ime.usp.br/)
+- [Bacharel em Ciência da Computação pela UECE (2008)](http://www.uece.br/)
+- [Técnico em Desenvolvimento de Software pelo IFCE (2004)](http://www.ifce.edu.br/)
+
+## Posts
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
