@@ -4,7 +4,7 @@ title: Apresentação
 ---
 {% include JB/setup %}
 
-{% img /assets/avatar.jpg 400x %}
+<img src="assets/avatar.jpg" alt="Avatar" style="width: 400px;"/>
 
 [Currículo Lattes](http://lattes.cnpq.br/1676762016268778)
 
@@ -25,6 +25,7 @@ Doutorando em Ciência da Computação:
 - [Algoritmos](http://en.wikipedia.org/wiki/Algorithm)
 - [Teoria dos Grafos](http://en.wikipedia.org/wiki/Graph_theory)
 - [Otimização Combinatória](http://en.wikipedia.org/wiki/Combinatorial_optimization)
+- [Competições de Programação](http://en.wikipedia.org/wiki/Competitive_programming)
 
 ## Formação Acadêmica
 
