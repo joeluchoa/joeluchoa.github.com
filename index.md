@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Apresentação
+title: Joel Silva Uchoa
 ---
 {% include JB/setup %}
 
-<img src="assets/avatar.jpg" alt="Avatar" style="width: 400px;"/>
+<img src="assets/avatar.jpg" alt="Avatar" style="width: 400px;float:center;"/>
 
 [Currículo Lattes](http://lattes.cnpq.br/1676762016268778)
 
