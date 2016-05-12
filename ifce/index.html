@@ -1,0 +1,28 @@
+---
+layout: page
+title: IFCE
+header: IFCE
+group: navigation
+---
+
+{% include JB/setup %}
+
+{% assign lista = ['disciplinas-técnico', 'disciplinas-bcc'] %}
+
+<ul class="tag_box inline">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'disciplinas' %}
+  {% include JB/pages_list %}
+</ul>
+
+
+{% for category in site.categories %} 
+  {% if category[0] == 'disciplinas-técnico' %}
+    <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+    <ul>
+      {% assign pages_list = category[1] %}  
+      {% include JB/pages_list %}
+    </ul>
+  {% endif %}
+{% endfor %}
+

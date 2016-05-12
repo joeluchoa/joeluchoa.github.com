@@ -34,6 +34,7 @@ Doutorando em Ciência da Computação:
 - [Bacharel em Ciência da Computação pela UECE (2008)](http://www.uece.br/)
 - [Técnico em Desenvolvimento de Software pelo IFCE (2004)](http://www.ifce.edu.br/)
 
+<!--
 ## Posts
 
 <ul class="posts">
@@ -41,4 +42,4 @@ Doutorando em Ciência da Computação:
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
+-->
