@@ -14,11 +14,11 @@ Professor em Teoria da Computação:
   - Rua Teófilo Pinto, 200 - Farias Brito, Aracati - CE, 62.800-000, Brasil
   - +55 88 3421-3559
 
-Doutorando em Ciência da Computação:
+<!--Doutorando em Ciência da Computação:
 
 - [Universidade Federal do Ceará](http://www.mdcc.ufc.br)
   - Campus do Pici - Bloco 910, Fortaleza - CE, 60.455-760, Brasil
-  - +55 85 3366-9847
+  - +55 85 3366-9847-->
 
 ## Áreas de Interesse
 
@@ -29,7 +29,7 @@ Doutorando em Ciência da Computação:
 
 ## Formação Acadêmica
 
-- [Doutor em Ciência da Computação pela UFC](http://www.ufc.br/) *(em progresso)*
+<!--- [Doutor em Ciência da Computação pela UFC](http://www.ufc.br/) *(em progresso)*-->
 - [Mestre em Ciência da Computação pelo IME-USP (2012)](http://www.ime.usp.br/)
 - [Bacharel em Ciência da Computação pela UECE (2008)](http://www.uece.br/)
 - [Técnico em Desenvolvimento de Software pelo IFCE (2004)](http://www.ifce.edu.br/)
